@@ -4,6 +4,10 @@ import Gemstone.*;
 
 public class Main {
     public static void main(String[] args) {
+        int recordBook = 5543;
+        int C2 = recordBook % 2; //1
+        int C3 = recordBook % 3; //2
+
         CollectionSet<Stone> gemstoneSet = new CollectionSet<Stone>();
         gemstoneSet.add(new Gemstone("Рубін", 1.2, 3000, 0.8));
         gemstoneSet.add(new SemiPreciousStone("Діамант", 1.5, 5000, 0.95));
